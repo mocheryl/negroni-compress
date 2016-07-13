@@ -23,7 +23,7 @@ func TestAppendFileType(t *testing.T) {
 	cLen, cOrig := len(compressiableFileTypes), compressiableFileTypes
 	l, err := appendFileType(compressiableFileTypes, `*/*`)
 	if len(l) != 0 || err != nil {
-		t.Errorf(`negronimodified.appendFileType(%v, %q) = %v, %v; want %v, nil`, compressiableFileTypes, `*/*`, l, err, []string{}, ErrBadContentTypeFormat)
+		t.Errorf(`negronimodified.appendFileType(%v, %q) = %v, %v; want %v, nil`, compressiableFileTypes, `*/*`, l, err, []string{})
 	}
 
 	l, err = appendFileType(compressiableFileTypes, `xyz`)
