@@ -4,7 +4,7 @@
 
 package negronicompress
 
-import `errors`
+import "errors"
 
 // ErrBadContentTypeFormat is returned when a file type in incorrect format is
 // used.

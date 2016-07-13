@@ -5,15 +5,15 @@
 package negronicompress
 
 import (
-	`compress/flate`
-	`compress/gzip`
-	`io`
-	`net/http`
-	`regexp`
-	`strconv`
-	`strings`
+	"compress/flate"
+	"compress/gzip"
+	"io"
+	"net/http"
+	"regexp"
+	"strconv"
+	"strings"
 
-	`github.com/codegangsta/negroni`
+	"github.com/codegangsta/negroni"
 )
 
 const (

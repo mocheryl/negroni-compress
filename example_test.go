@@ -5,10 +5,10 @@
 package negronicompress
 
 import (
-	`fmt`
-	`net/http`
+	"fmt"
+	"net/http"
 
-	`github.com/codegangsta/negroni`
+	"github.com/codegangsta/negroni"
 )
 
 // NewCompress basic usage.

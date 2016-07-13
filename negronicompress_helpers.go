@@ -5,8 +5,8 @@
 package negronicompress
 
 import (
-	`regexp`
-	`strings`
+	"regexp"
+	"strings"
 )
 
 // compressiableFileTypes is a list of "Content-Type" file types that should be

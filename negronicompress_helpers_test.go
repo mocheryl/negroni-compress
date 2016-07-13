@@ -5,8 +5,8 @@
 package negronicompress
 
 import (
-	`regexp`
-	`testing`
+	"regexp"
+	"testing"
 )
 
 func TestCompileFileTypes(t *testing.T) {

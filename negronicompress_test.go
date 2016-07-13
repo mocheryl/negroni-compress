@@ -5,13 +5,13 @@
 package negronicompress
 
 import (
-	`compress/flate`
-	`net/http`
-	`net/http/httptest`
-	`regexp`
-	`testing`
+	"compress/flate"
+	"net/http"
+	"net/http/httptest"
+	"regexp"
+	"testing"
 
-	`github.com/codegangsta/negroni`
+	"github.com/codegangsta/negroni"
 )
 
 type respWriteTest struct {
